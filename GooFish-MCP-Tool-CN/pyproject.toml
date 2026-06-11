@@ -1,0 +1,29 @@
+[project]
+name = "goofish-mcp-tool-cn"
+version = "0.2.0"
+description = "GooFish MCP Tool CN - 中文闲鱼 / Goofish 自动化 MCP 工具"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+keywords = ["mcp", "goofish", "xianyu", "playwright", "automation"]
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "openai>=1.30.0",
+    "playwright>=1.44.0",
+    "playwright-stealth>=2.0.2",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "server.py",
+    "tools",
+    "assets",
+    "README.md",
+    "LICENSE",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
