@@ -1,6 +1,7 @@
 # GOOFishClaw-MCP--MCP-
 GOOFishClaw-MCP-CN Version-CosmicAGI
 GooFish-MCP-Tool-CN
+<img width="940" height="940" alt="joey" src="https://github.com/user-attachments/assets/e98b07d4-35d3-48c5-bfa8-0d08e07ab1a6" />
 
 A Chinese Goofish / Xianyu automation MCP tool.
 
